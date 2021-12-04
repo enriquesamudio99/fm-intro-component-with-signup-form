@@ -28,20 +28,24 @@
                     <p class="offer-text"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
                 </div>
 
-                <form class="form" method="get">
+                <form class="form" method="get" id="form">
                     
                     <div class="fields">
                         <div class="field">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" id="firstnameInput">
+                            <p class="invalid-feedback"></p>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Last Name ">
+                            <input type="text" placeholder="Last Name" id="lastnameInput">
+                            <p class="invalid-feedback"></p>
                         </div>
                         <div class="field">
-                            <input type="email" placeholder="Email Address">
+                            <input type="email" placeholder="Email Address" id="emailInput">
+                            <p class="invalid-feedback"></p>
                         </div>
                         <div class="field">
-                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Password" id="passwordInput">
+                            <p class="invalid-feedback"></p>
                         </div>     
                     </div>
 
@@ -53,5 +57,6 @@
         </div>
     </main>
 
+    <script src="js/scripts.js"></script>
 </body>
 </html>
